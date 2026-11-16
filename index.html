@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#f7f7f4">
-<meta name="description" content="Explore printing, personalised products and digital fabrication from Madurapriya Group, Sri Lanka.">
-<title>Madurapriya Group — Print, Create, Make</title>
+<meta name="description" content="Explore printing, personalised products and digital fabrication from Madurapriya Multimedia Studio (Pvt Ltd), Sri Lanka.">
+<title>Madurapriya Multimedia Studio (Pvt Ltd) | Print, Create, Make</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
@@ -35,12 +35,23 @@ footer{background:var(--ink);border-top:1px solid #444;padding:24px 0;color:#aaa
 .wa{position:fixed;right:20px;bottom:20px;z-index:30;background:#20b968;color:white;padding:13px 18px;border-radius:99px;box-shadow:0 8px 26px #0003;font-size:11px;font-weight:700}
 @media(max-width:850px){.hero-panel{grid-template-columns:1fr}.hero-copy{padding:48px 42px 5px}.hero-visual{min-height:310px}.category-grid{grid-template-columns:repeat(2,1fr)}.products{grid-template-columns:repeat(2,1fr)}.about,.contact-grid{grid-template-columns:1fr;gap:25px}.nav{display:none;position:absolute;top:78px;left:0;right:0;padding:22px 24px;background:#fff;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start}.nav.open{display:flex}.hamb{display:block}.section-top{display:block}.section-top p{margin-top:15px}}
 @media(max-width:520px){.wrap{width:calc(100% - 32px)}.topline .wrap{font-size:9px}.logo img{width:180px}.hero{padding:24px 0}.hero-copy{padding:35px 25px 0}.hero-visual{min-height:280px}.mock-stack{transform:scale(.82)}.category-grid,.products,.capabilities,.steps-grid,.divisions{grid-template-columns:1fr 1fr}.category{min-height:145px;padding:15px}.product-art{height:150px}.product-info{padding:12px}.product h3{font-size:14px}.product p{font-size:10px}.product-bottom{align-items:flex-start;flex-direction:column}.quote-strip{align-items:flex-start;flex-direction:column}.cap{padding:15px;display:block}.cap-icon{margin-bottom:12px}.foot{flex-wrap:wrap}.foot-links{width:100%;flex-wrap:wrap}.contact{padding:65px 0}.wa{right:12px;bottom:12px}}
+
+.main-brand{display:flex;align-items:center;gap:13px;min-width:0}
+.main-brand img{width:86px;height:56px;object-fit:contain}
+.main-brand span{font:800 14px/1.2 Manrope,sans-serif;letter-spacing:-.035em;max-width:220px;color:var(--ink)}
+.main-brand span small{display:block;font:600 10px/1.5 "DM Sans",sans-serif;letter-spacing:.02em;color:#777}
+.footer-brand{display:flex;align-items:center;gap:12px}
+.footer-label{font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:#999}
+.foot-logo{display:inline-flex;align-items:center}
+.foot-logo img{width:160px;height:auto;max-height:42px;object-fit:contain}
+@media(max-width:520px){.main-brand{gap:8px}.main-brand img{width:65px;height:46px}.main-brand span{font-size:11px;max-width:155px}.main-brand span small{font-size:9px}.footer-brand{gap:8px}.foot-logo img{width:135px}}
+
 </style>
 </head>
 <body>
 <div class="topline"><div class="wrap"><span>Printing · Creative Production · Digital Fabrication</span><span>Made in Sri Lanka · Enquiries via WhatsApp</span></div></div>
 <header><div class="wrap head">
-<a class="logo" href="#home"><img src="assets/madurapriya-logo.png" alt="Madurapriya Group"></a>
+<a class="logo main-brand" href="#home" aria-label="Madurapriya Multimedia Studio Private Limited home"><img src="assets/mms-production-logo.png" alt="MMS Production logo"><span>Madurapriya Multimedia Studio <small>(Pvt Ltd)</small></span></a>
 <button class="hamb" aria-label="Toggle navigation" onclick="document.querySelector('.nav').classList.toggle('open')">☰</button>
 <nav class="nav"><a href="#categories">Categories</a><a href="#products">Products</a><a href="#capabilities">Capabilities</a><a href="#about">About us</a><a class="cta" href="https://wa.me/94762012900?text=Hello%20Madurapriya%20Group%2C%20I%20would%20like%20a%20quotation.">Request a quote ↗</a></nav>
 </div></header>
@@ -98,7 +109,7 @@ footer{background:var(--ink);border-top:1px solid #444;padding:24px 0;color:#aaa
 
 <section id="contact" class="contact"><div class="wrap contact-grid"><div><div class="kicker">Let's make something</div><h2>Have a project<br>in mind?</h2><p>Send us your enquiry on WhatsApp. Include the product, quantity, size and any reference artwork to help us get started.</p><a class="btn red" href="https://wa.me/94762012900?text=Hello%20Madurapriya%20Group%2C%20I%20would%20like%20to%20request%20a%20quotation.">Chat on WhatsApp ↗</a></div><div class="contact-info"><div><small>WhatsApp / Phone</small><b>+94 76 201 2900</b></div><div><small>Address</small><b>236/2B TC Rd, Kotikawatta 10620, Sri Lanka</b></div><div><small>Email</small><b><a href="mailto:madurapriya@gmail.com">madurapriya@gmail.com</a></b></div></div></div></section>
 </main>
-<footer><div class="wrap foot"><a class="foot-logo" href="#home"><img src="assets/madurapriya-logo.png" alt="Madurapriya Group"></a><small>© <span id="year"></span> Madurapriya Group. All rights reserved.</small><div class="foot-links"><a href="#categories">Categories</a><a href="#products">Products</a><a href="#about">About</a><a href="#contact">Contact</a></div></div></footer>
+<footer><div class="wrap foot"><div class="footer-brand"><span class="footer-label">A company of</span><a class="foot-logo" href="#home"><img src="assets/madurapriya-group-logo.png" alt="Madurapriya Group"></a></div><small>© <span id="year"></span> Madurapriya Group. All rights reserved.</small><div class="foot-links"><a href="#categories">Categories</a><a href="#products">Products</a><a href="#about">About</a><a href="#contact">Contact</a></div></div></footer>
 <a class="wa" href="https://wa.me/94762012900?text=Hello%20Madurapriya%20Group%2C%20I%20would%20like%20to%20make%20an%20inquiry.">◉ WhatsApp enquiry</a>
 <script>
 const waBase='https://wa.me/94762012900?text=';

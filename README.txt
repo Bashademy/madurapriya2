@@ -1,23 +1,13 @@
-MADURAPRIYA GROUP — PRODUCT CATALOGUE WEBSITE
+MADURAPRIYA MULTIMEDIA STUDIO (PVT LTD) — PRODUCT CATALOGUE WEBSITE
 
-Included:
-- index.html
-- assets/madurapriya-logo.png
+Brand hierarchy:
+- Main company identity: Madurapriya Multimedia Studio (Pvt Ltd), with the supplied MMS Production logo in the header.
+- Group identity: Madurapriya Group logo retained in the footer under “A company of”.
 
-Features:
-- Responsive minimalist catalogue layout
-- Product category cards and working category filters
-- Product enquiry links that open WhatsApp with product-specific messages
-- Printing and digital fabrication capability section
-- About, divisions and contact details
-- No cart, checkout or payment gateway
+Included: index.html and both logo assets in the assets folder.
 
-Deploy:
-Upload index.html and the assets folder to the root of your GitHub Pages repository, commit and push. Keep the current madurapriya.com DNS/custom-domain settings unchanged unless your hosting configuration requires a change.
+The catalogue has category filters and product-specific WhatsApp enquiry links to +94 76 201 2900. No cart or checkout is included.
 
-Important content notes:
-- Product types shown are catalogue examples and must be confirmed against what Madurapriya actually supplies.
-- No prices are invented; product cards say Price on request.
-- The five printing/fabrication technologies are described as an expanding capability. Confirm availability before publishing.
-- Product illustrations are CSS mockups, not photographs of actual products.
-- Existing business address and email have been retained from the prior website draft; please verify before launch.
+Deploy by uploading index.html and the assets folder to the root of your GitHub Pages repository, then commit and push. Keep existing madurapriya.com DNS settings unless your hosting setup requires a change.
+
+Please verify products, machine availability, address and email before launch. Product prices remain “Price on request”. Product illustrations are placeholders, not actual product photographs.
